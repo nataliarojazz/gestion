@@ -16,10 +16,10 @@
         <%@page   import="GS.Eps"%>
         <%
                 out.print("LISTA EPS");
-                   
+                out.println("<br>");  
                 Eps eps =  new Eps ("ECOOPSOS");
                 out.print(eps.mostrar2());
-                out.println("\n");          
+                out.println("<br>");          
                 out.print(eps.mostrar2());
                 Eps eps1=new Eps ("FAMISANAR");
                 out.print(eps1.mostrar2());

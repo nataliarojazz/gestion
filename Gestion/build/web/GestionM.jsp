@@ -16,9 +16,10 @@
         <%@page   import="GS.Doctor"%>
         <% 
             out.print("LISTA DE DOCTORES");
+            out.println("<br>");
              Doctor dr = new Doctor("JORGE", "GONZALES");
              out.print(dr.mostrar2());
-             out.println("\n");
+             out.println("<br>");
              Doctor dr1 = new Doctor("YEIMMY", "OCHOA");
              out.print(dr1.mostrar2());
         %>

@@ -43,13 +43,13 @@ public class Paciente extends Persona{
     
     public String mostrar2(){
         return ("Nombre: "+getNombre()+
-                "\nApellido: "+getApellido()+
-                "\nDireccion: "+direccion+
-                "\nMotivo Consulta: "+motivo+
-                "\nMedico: "+medico+
-                "\nEPS: "+eps+
-                "\nfecha: "+fecha+
-                "\nCodigo: "+codigo+
-                "\nSexo: "+sexo);
+                "<br> Apellido: "+getApellido()+
+                "<br> Direccion: "+direccion+
+                "<br> Motivo Consulta: "+motivo+
+                "<br> Medico: "+medico+
+                "<br> EPS: "+eps+
+                "<br> fecha: "+fecha+
+                "<br> Codigo: "+codigo+
+                "<br> Sexo: "+sexo);
     }
 }
