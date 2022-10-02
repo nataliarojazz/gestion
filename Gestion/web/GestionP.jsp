@@ -18,16 +18,14 @@
         <%@ page import="java.util.List" %>
         <%@ page import="GS.Paciente" %>
         <h2><% 
-           out.print("LISTA DE PACIENTES");
+           out.println("LISTA DE PACIENTES");
                Paciente pa = new Paciente("CARLOS", "BERMUDEZ", "CALLE16#3-06", "COVID-19", "DR.JORGE GONZALES", "FAMISANAR", "30-SEP-2022", 1, 'M');
-               pa.mostrar();
-               System.out.println("\n");
-               Paciente pa1 = new Paciente("SOFIA", "ROSERO", "CALLE20#8-06", "VARICELA", "DRA.YEIMMY OCHOA", "ECOOPSOS", "31-SEP-2022", 2, 'F');
-               pa1.mostrar();
-               System.out.println("\n");
+               out.print(pa.mostrar2());
+               out.println("\n"); 
                Paciente tc = new Paciente("SOFIA", "ROSERO", "CALLE20#8-06", "VARICELA", "DRA.YEIMMY OCHOA", "ECOOPSOS", "31-SEP-2022", 2, 'F');
                out.print(tc.mostrar2());
             %> </h2>
+
 
     </body>
 </html>

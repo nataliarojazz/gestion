@@ -16,5 +16,8 @@ public class Doctor extends Persona{
         System.out.println("Doctor: "+getNombre()+" "+getApellido());
                
     }
-    
+         public String mostrar2(){
+        return ("Doctor: "+getNombre()+" "+getApellido());
+               
+    }
 }

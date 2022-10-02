@@ -8,7 +8,8 @@ package GS;
  *
  * @author Profesional
  */
-public class Eps{
+public class Eps {
+
     private String nombreEPS;
 
     public String getNombreEPS() {
@@ -18,7 +19,12 @@ public class Eps{
     public Eps(String nombreEPS) {
         this.nombreEPS = nombreEPS;
     }
-    public void mostrar(){
-        System.out.println("EPS: "+getNombreEPS());
+
+    public void mostrar() {
+        System.out.println("EPS: " + getNombreEPS());
+    }
+
+    public String mostrar2() {
+        return ("EPS: " + getNombreEPS());
     }
 }

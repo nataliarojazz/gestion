@@ -17,10 +17,10 @@
         <% 
             out.print("LISTA DE DOCTORES");
              Doctor dr = new Doctor("JORGE", "GONZALES");
-             dr.mostrar();
-             System.out.println("\n");
+             out.print(dr.mostrar2());
+             out.println("\n");
              Doctor dr1 = new Doctor("YEIMMY", "OCHOA");
-             dr1.mostrar();
+             out.print(dr1.mostrar2());
         %>
     </body>
 

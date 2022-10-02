@@ -18,11 +18,12 @@
                 out.print("LISTA EPS");
                    
                 Eps eps =  new Eps ("ECOOPSOS");
-                eps.mostrar();
-                System.out.println("\n");
+                out.print(eps.mostrar2());
+                out.println("\n");          
+                out.print(eps.mostrar2());
                 Eps eps1=new Eps ("FAMISANAR");
-                eps1.mostrar();
-                System.out.println("\n");
+                out.print(eps1.mostrar2());
+                out.println("\n");
         %>
     </body>
 </html>
